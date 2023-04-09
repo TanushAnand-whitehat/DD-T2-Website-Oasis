@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="questionnaire.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/05058bd91d.js" crossorigin="anonymous"></script>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title> Oasis Home </title>
+   </head>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <i class=></i> 
+        <div class="logo_name">Oasis</div>
+    </div>
+    <ul class="nav-list">
+      <li>
+        <a href="home.html">
+          <i class='bx bx-home'></i>
+          <span class="links_name">Home</span>
+        </a>
+         <span class="tooltip">Home</span>
+      </li>
+      <br>
+      <li>
+       <a href="questionnaire.html">
+         <i class='bx bx-search-alt-2' ></i>
+         <span class="links_name">Questionnaire</span>
+       </a>
+       <span class="tooltip">Questionnaire</span>
+     </li>
+     <br>
+     <li>
+       <a href="home.html">
+         <i class='bx bx-music' ></i>
+         <span class="links_name">Music</span>
+       </a>
+       <span class="tooltip">Music</span>
+     </li>
+     <br>
+     <li>
+       <a href="home.html">
+        <i class="fa-regular fa-star"></i>
+         <span class="links_name">Dance</span>
+       </a>
+       <span class="tooltip">Dance</span>
+     </li>
+     <br>
+     <li>
+       <a href="home.html">
+         <i class='bx bx-dumbbell' ></i>
+         <span class="links_name">Exercise</span>
+       </a>
+       <span class="tooltip">Exercise</span>
+     </li>
+     <br>
+     <br>
+     <br>
+     <li>
+      <a href="login.html">
+        <i class='bx bx-log-out' id="log_out" ></i>
+        <span class="links_name">Logout</span>
+      </a>
+       <span class="tooltip">Logout</span>
+    </li>
+    </ul>
+  </div>
+  <section class="home-section">
+      <div class="text">Oasis</div>
+      <div id = "body-text">
+        <p class = "question"> Which region of India are you from?(North, South, East & West)</p>
+        
+        <input class = "answer" type = "text" placeholder="Enter your answer here">
+        
+        <p class = "question"> What is your mother tongue?</p>
+        
+        <input class = "answer" type = "text" placeholder="Enter your answer here">
+        
+        <p class = "question"> What do you enjoy most about your culture?(Food, Music, Lifestyle)</p>
+        
+        <input class = "answer" type = "text" placeholder="Enter your answer here">
+        
+        <p class = "question"> Is stress affecting your work efficiency and effective collaboration skills?</p>
+        
+        <input class = "answer" type = "text" placeholder="Enter your answer here">
+        
+        <p class = "question"> Are you a digital worker, and often find yourself using technology majorly during the course of your day? </p>
+        
+        <input class = "answer" type = "text" placeholder="Enter your answer here">
+        <br>
+        <br>
+        <span class = "button_row">
+          <center>
+            <button id = "clear_form" onclick = clear()> Clear Form </button>
+          
+          <a href="home.html" id="submit_form">
+            Submit
+        </a>
+          </center>
+        </span>
+      </div>
+  </section>
+</body>
+</html>
